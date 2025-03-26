@@ -671,6 +671,48 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
+
+        </div>
+    </section>
+
+    <section id="section-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h2>Our Videos</h2>
+                        <div class="small-border"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="video-container">
+                        <iframe src="https://youtube.com/embed/EQXlZKGDIVc" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/k-uv3AyygFM" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/kzdJbOzR7j0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/odCI5Zhr3Fg" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
     <section id="section-text" data-bgcolor="#39c9f4" class="text-light">
@@ -990,6 +1032,24 @@ include_once 'header.php';
         /* Slight zoom on hover */
         box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
         /* More prominent shadow */
+    }
+
+
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-top: 177.78%;
+        /* 16:9 aspect ratio reversed (9:16) */
+        overflow: hidden;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
     }
 </style>
 
