@@ -596,6 +596,8 @@ include_once 'header.php';
             </div>
         </div>
     </section>
+
+
     <section id="section-news">
         <div class="container">
             <div class="row">
@@ -606,6 +608,7 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb30">
                     <div class="bloglist item">
@@ -671,7 +674,6 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -685,8 +687,6 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-
-
             <div class="row">
                 <div class="col-md-3 col-6">
                     <div class="video-container">
@@ -712,9 +712,9 @@ include_once 'header.php';
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
+
     <section id="section-text" data-bgcolor="#39c9f4" class="text-light">
         <div class="container">
             <div class="row align-items-center">
